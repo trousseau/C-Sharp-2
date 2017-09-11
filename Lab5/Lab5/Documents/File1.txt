@@ -1,0 +1,5 @@
+The ability to manipulate files is a feature common to most programming languages both present and past.  The term file refers to blocks of data stored on a variety of readable and/or writable media including, but not limited to: hard disks, flash drives, CD/DVD/Blu-ray optical discs and magnetic tape.  File I/O (Input/Output) is such an important feature in computer technology that the popular operating system DOS, from decades past, refers to file manipulation as part of its name Disk Operating System.  C# and the .NET Framework also considers file I/O to be a very important component for creating robust programs.  The System.IO namespace, where most IO types are defined, is part of the mscorlib library assembly so most C# programs will have access to this namespace by default.  All that you need to do is add the following using directive to the top of any code files that will make use of file I/O:
+
+using System.IO;
+
+For all examples in this chapter please assume that this using directive is present.
